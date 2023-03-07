@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@200&display=swap');
+
+body{
+    font-family: 'Unbounded', cursive;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    height: 100vh;
+    background-color: #2b2b2b;
+    flex-direction: column;
+}
+
+#calculator{
+    max-width: 360px;
+    background-color: #f79708;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+#display{
+    font-size: 25px;
+    text-align: right;
+    border-radius: 10px;
+    border: none;
+    width: 100%;
+    height: 70px;
+    margin-bottom: 10px;
+    
+}
+
+.operator{
+    color: #f79708;
+}
+button{
+    font-size: 20px;
+    width: calc(25% - 10px);
+    height: 50px;
+    margin: 10px 5px;
+    border: none;
+    border-radius: 5px;
+    float: left;
+    box-shadow: -1px 1px 30px -5px rgb(0 0 0 / 23%);
+}
+
+.equal{
+    width: calc(50% - 10px);
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+button:active{
+    transform: scale(1.05);
+    box-shadow: 0 2px 4px 1px ;
+}
+
+
+footer img{
+    width: 35px;
+    margin: 10px;
+}
